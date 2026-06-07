@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===================== CHANGE GYM NAME HERE ===================== -->
+  <title>IronEdge Gym — Forge Your Best Self</title>
+  <!-- ================================================================ -->
+
+  <meta name="description" content="Premium gym memberships, expert trainers, and state-of-the-art equipment." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================================================================
+       NAVBAR
+  ================================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- ===================== CHANGE GYM NAME HERE ===================== -->
+      <a href="#home" class="nav-logo">IRON<span>EDGE</span></a>
+      <!-- ================================================================ -->
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#plans"    class="nav-link">Plans</a></li>
+        <li><a href="#trainers" class="nav-link">Trainers</a></li>
+        <li><a href="#gallery"  class="nav-link">Gallery</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+        <!-- ===================== CHANGE PHONE NUMBER HERE ===================== -->
+        <li><a href="tel:+917563005314" class="nav-cta">Join Now</a></li>
+        <!-- ==================================================================== -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ================================================================
+       HERO SECTION
+  ================================================================ -->
+  <section class="hero" id="home">
+    <!--
+      ========================= PASTE HERO IMAGE URL HERE =========================
+      Replace the CSS background-image in style.css under .hero { }
+      OR uncomment and set the inline style below:
+      style="background-image: url('YOUR_IMAGE_URL_HERE')"
+      =============================================================================
+    -->
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">Welcome to IronEdge</p>
+
+      <!-- ===================== CHANGE HERO HEADING HERE ===================== -->
+      <h1 class="hero-heading">FORGE YOUR<br /><span>BEST SELF</span></h1>
+      <!-- ==================================================================== -->
+
+      <!-- ===================== CHANGE HERO SUBTEXT HERE ===================== -->
+      <p class="hero-sub">
+        Elite training. Expert coaches. Unstoppable results.<br />
+        Your transformation starts the moment you walk through that door.
+      </p>
+      <!-- ==================================================================== -->
+
+      <div class="hero-buttons">
+
+        <!-- ===================== CHANGE PHONE NUMBER HERE ===================== -->
+        <a href="https://wa.me/917563005314?text=Hi%2C%20I%20want%20to%20join%20IronEdge%20Gym!" class="btn btn-whatsapp" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+        <a href="tel:+917563005314" class="btn btn-call">
+          <i class="fas fa-phone"></i> Call Now
+        </a>
+        <!-- ==================================================================== -->
+
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       ABOUT SECTION
+  ================================================================ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Who We Are</p>
+
+        <!-- ===================== CHANGE GYM NAME HERE ===================== -->
+        <h2 class="section-title">About <span>IronEdge</span></h2>
+        <!-- ================================================================ -->
+
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <!--
+            ===================== CHANGE ABOUT IMAGE HERE =====================
+            Replace the src below with your gym's image URL or local file path
+            ===================================================================
+          -->
+          <img
+            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop"
+            alt="IronEdge Gym Interior"
+            class="about-img"
+            loading="lazy"
+          />
+          <div class="about-badge">
+            <span class="badge-number">10+</span>
+            <span class="badge-text">Years of Excellence</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <!-- ===================== CHANGE ABOUT TEXT HERE ===================== -->
+          <h3>Where Champions Are Made</h3>
+          <p>
+            At IronEdge, we believe every rep, every set, and every drop of sweat brings you closer
+            to the person you're meant to be. Founded with a passion for fitness and a commitment
+            to excellence, we have helped thousands of members transform their bodies and their lives.
+          </p>
+          <p>
+            Our state-of-the-art facility is equipped with the latest machines, free weights, and
+            dedicated spaces for cardio, functional training, and group classes. Whether you're a
+            beginner stepping into a gym for the first time or an advanced athlete chasing peak
+            performance — you belong here.
+          </p>
+          <!-- ==================================================================== -->
+
+          <div class="about-stats">
+            <!-- ===================== CHANGE STATS HERE ===================== -->
+            <div class="stat"><span class="stat-num">2500+</span><span class="stat-label">Members</span></div>
+            <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Expert Trainers</span></div>
+            <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Equipment</span></div>
+            <div class="stat"><span class="stat-num">24/7</span><span class="stat-label">Open Hours</span></div>
+            <!-- ================================================================ -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       MEMBERSHIP PLANS SECTION
+  ================================================================ -->
+  <section class="plans section" id="plans">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Flexible Pricing</p>
+        <h2 class="section-title">Membership <span>Plans</span></h2>
+        <p class="section-desc">Choose a plan that fits your goals. Cancel or upgrade anytime.</p>
+      </div>
+
+      <div class="plans-grid">
+
+        <!-- ===================== PLAN 1: CHANGE DETAILS HERE ===================== -->
+        <div class="plan-card">
+          <div class="plan-tag">Starter</div>
+          <h3 class="plan-duration">1 Month</h3>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">1,499</span>
+            <span class="per">/mo</span>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> Full Gym Access</li>
+            <li><i class="fas fa-check"></i> Locker Room</li>
+            <li><i class="fas fa-check"></i> 1 Free PT Session</li>
+            <li><i class="fas fa-check"></i> Diet Consultation</li>
+            <li class="disabled"><i class="fas fa-times"></i> Personal Trainer</li>
+            <li class="disabled"><i class="fas fa-times"></i> Group Classes</li>
+          </ul>
+          <!-- ===================== CHANGE PHONE NUMBER HERE ===================== -->
+          <a href="https://wa.me/917563005314?text=Hi%2C%20I%27m%20interested%20in%20the%201%20Month%20plan!" class="btn btn-plan" target="_blank">Get Started</a>
+          <!-- ==================================================================== -->
+        </div>
+        <!-- ================================================================ -->
+
+        <!-- ===================== PLAN 2: CHANGE DETAILS HERE ===================== -->
+        <div class="plan-card popular">
+          <div class="plan-tag">Popular</div>
+          <h3 class="plan-duration">3 Months</h3>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">3,999</span>
+            <span class="per">/3mo</span>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> Full Gym Access</li>
+            <li><i class="fas fa-check"></i> Locker Room</li>
+            <li><i class="fas fa-check"></i> 3 Free PT Sessions</li>
+            <li><i class="fas fa-check"></i> Diet Consultation</li>
+            <li><i class="fas fa-check"></i> Group Classes</li>
+            <li class="disabled"><i class="fas fa-times"></i> Personal Trainer</li>
+          </ul>
+          <!-- ===================== CHANGE PHONE NUMBER HERE ===================== -->
+          <a href="https://wa.me/917563005314?text=Hi%2C%20I%27m%20interested%20in%20the%203%20Month%20plan!" class="btn btn-plan active" target="_blank">Get Started</a>
+          <!-- ==================================================================== -->
+        </div>
+        <!-- ================================================================ -->
+
+        <!-- ===================== PLAN 3: CHANGE DETAILS HERE ===================== -->
+        <div class="plan-card">
+          <div class="plan-tag">Value</div>
+          <h3 class="plan-duration">6 Months</h3>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">6,999</span>
+            <span class="per">/6mo</span>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> Full Gym Access</li>
+            <li><i class="fas fa-check"></i> Locker Room</li>
+            <li><i class="fas fa-check"></i> 5 Free PT Sessions</li>
+            <li><i class="fas fa-check"></i> Diet Consultation</li>
+            <li><i class="fas fa-check"></i> Group Classes</li>
+            <li><i class="fas fa-check"></i> Sauna Access</li>
+          </ul>
+          <!-- ===================== CHANGE PHONE NUMBER HERE ===================== -->
+          <a href="https://wa.me/917563005314?text=Hi%2C%20I%27m%20interested%20in%20the%206%20Month%20plan!" class="btn btn-plan" target="_blank">Get Started</a>
+          <!-- ==================================================================== -->
+        </div>
+        <!-- ================================================================ -->
+
+        <!-- ===================== PLAN 4: CHANGE DETAILS HERE ===================== -->
+        <div class="plan-card elite">
+          <div class="plan-tag">Best Deal</div>
+          <h3 class="plan-duration">1 Year</h3>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">11,999</span>
+            <span class="per">/yr</span>
+          </div>
+          <ul class="plan-features">
+            <li><i class="fas fa-check"></i> Full Gym Access</li>
+            <li><i class="fas fa-check"></i> Locker Room</li>
+            <li><i class="fas fa-check"></i> Unlimited PT Sessions</li>
+            <li><i class="fas fa-check"></i> Diet Consultation</li>
+            <li><i class="fas fa-check"></i> All Group Classes</li>
+            <li><i class="fas fa-check"></i> Sauna + Spa Access</li>
+          </ul>
+          <!-- ===================== CHANGE PHONE NUMBER HERE ===================== -->
+          <a href="https://wa.me/917563005314?text=Hi%2C%20I%27m%20interested%20in%20the%20Annual%20plan!" class="btn btn-plan" target="_blank">Get Started</a>
+          <!-- ==================================================================== -->
+        </div>
+        <!-- ================================================================ -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       TRAINERS SECTION
+  ================================================================ -->
+  <section class="trainers section" id="trainers">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Meet the Team</p>
+        <h2 class="section-title">Our <span>Trainers</span></h2>
+        <p class="section-desc">Certified professionals dedicated to your transformation.</p>
+      </div>
+
+      <div class="trainers-grid">
+
+        <!-- ==================== TRAINER 1 ==================== -->
+        <div class="trainer-card">
+          <!--
+            ===================== CHANGE TRAINER IMAGE HERE =====================
+            Replace the src with your trainer's photo URL or local file path
+            =====================================================================
+          -->
+          <div class="trainer-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&auto=format&fit=crop"
+              alt="Trainer"
+              loading="lazy"
+            />
+          </div>
+          <div class="trainer-info">
+            <!-- ===================== CHANGE TRAINER NAME HERE ===================== -->
+            <h3>Rahul Sharma</h3>
+            <!-- ==================================================================== -->
+            <!-- ===================== CHANGE TRAINER SPECIALTY HERE ===================== -->
+            <p class="trainer-specialty">Strength & Conditioning</p>
+            <!-- ========================================================================= -->
+            <p class="trainer-exp">8 Years Experience</p>
+            <div class="trainer-socials">
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- ======================================================= -->
+
+        <!-- ==================== TRAINER 2 ==================== -->
+        <div class="trainer-card">
+          <!--
+            ===================== CHANGE TRAINER IMAGE HERE =====================
+            Replace the src with your trainer's photo URL or local file path
+            =====================================================================
+          -->
+          <div class="trainer-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&auto=format&fit=crop"
+              alt="Trainer"
+              loading="lazy"
+            />
+          </div>
+          <div class="trainer-info">
+            <!-- ===================== CHANGE TRAINER NAME HERE ===================== -->
+            <h3>Priya Verma</h3>
+            <!-- ==================================================================== -->
+            <!-- ===================== CHANGE TRAINER SPECIALTY HERE ===================== -->
+            <p class="trainer-specialty">Yoga & Flexibility</p>
+            <!-- ========================================================================= -->
+            <p class="trainer-exp">6 Years Experience</p>
+            <div class="trainer-socials">
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- ======================================================= -->
+
+        <!-- ==================== TRAINER 3 ==================== -->
+        <div class="trainer-card">
+          <!--
+            ===================== CHANGE TRAINER IMAGE HERE =====================
+            Replace the src with your trainer's photo URL or local file path
+            =====================================================================
+          -->
+          <div class="trainer-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1567013127542-490d757e6349?w=400&auto=format&fit=crop"
+              alt="Trainer"
+              loading="lazy"
+            />
+          </div>
+          <div class="trainer-info">
+            <!-- ===================== CHANGE TRAINER NAME HERE ===================== -->
+            <h3>Arjun Mehta</h3>
+            <!-- ==================================================================== -->
+            <!-- ===================== CHANGE TRAINER SPECIALTY HERE ===================== -->
+            <p class="trainer-specialty">Crossfit & HIIT</p>
+            <!-- ========================================================================= -->
+            <p class="trainer-exp">5 Years Experience</p>
+            <div class="trainer-socials">
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- ======================================================= -->
+
+        <!-- ==================== TRAINER 4 ==================== -->
+        <div class="trainer-card">
+          <!--
+            ===================== CHANGE TRAINER IMAGE HERE =====================
+            Replace the src with your trainer's photo URL or local file path
+            =====================================================================
+          -->
+          <div class="trainer-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&auto=format&fit=crop"
+              alt="Trainer"
+              loading="lazy"
+            />
+          </div>
+          <div class="trainer-info">
+            <!-- ===================== CHANGE TRAINER NAME HERE ===================== -->
+            <h3>Sneha Kapoor</h3>
+            <!-- ==================================================================== -->
+            <!-- ===================== CHANGE TRAINER SPECIALTY HERE ===================== -->
+            <p class="trainer-specialty">Nutrition & Weight Loss</p>
+            <!-- ========================================================================= -->
+            <p class="trainer-exp">7 Years Experience</p>
+            <div class="trainer-socials">
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- ======================================================= -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       GALLERY SECTION
+  ================================================================ -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Our Space</p>
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-desc">Take a look inside IronEdge.</p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <!--
+          ===================== PASTE GALLERY IMAGE URL HERE =====================
+          Replace the src with your actual gym photo URL or local file path
+          ========================================================================
+        -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop" alt="Gym Floor" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+
+        <!--
+          ===================== PASTE GALLERY IMAGE URL HERE =====================
+        -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&auto=format&fit=crop" alt="Weight Room" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+
+        <!--
+          ===================== PASTE GALLERY IMAGE URL HERE =====================
+        -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=600&auto=format&fit=crop" alt="Cardio Area" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+
+        <!--
+          ===================== PASTE GALLERY IMAGE URL HERE =====================
+        -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=600&auto=format&fit=crop" alt="Spinning Class" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+
+        <!--
+          ===================== PASTE GALLERY IMAGE URL HERE =====================
+        -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1520877880798-5ee004e3f11e?w=600&auto=format&fit=crop" alt="Boxing Area" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+
+        <!--
+          ===================== PASTE GALLERY IMAGE URL HERE =====================
+        -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=600&auto=format&fit=crop" alt="Yoga Studio" loading="lazy" />
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+      <img src="" alt="Gallery" id="lightboxImg" />
+    </div>
+  </section>
+
+  <!-- ================================================================
+       BMI CALCULATOR SECTION
+  ================================================================ -->
+  <section class="bmi section" id="bmi">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Know Your Numbers</p>
+        <h2 class="section-title">BMI <span>Calculator</span></h2>
+        <p class="section-desc">Find out your Body Mass Index and what it means for your health.</p>
+      </div>
+
+      <div class="bmi-wrap">
+        <div class="bmi-form">
+          <div class="bmi-toggle">
+            <button class="unit-btn active" id="metricBtn" onclick="switchUnit('metric')">Metric (cm/kg)</button>
+            <button class="unit-btn" id="imperialBtn" onclick="switchUnit('imperial')">Imperial (ft/lbs)</button>
+          </div>
+
+          <div class="bmi-inputs">
+            <div class="bmi-field">
+              <label for="height">Height</label>
+              <div class="input-wrap">
+                <input type="number" id="height" placeholder="175" min="50" max="300" />
+                <span class="unit-label" id="heightUnit">cm</span>
+              </div>
+            </div>
+            <div class="bmi-field">
+              <label for="weight">Weight</label>
+              <div class="input-wrap">
+                <input type="number" id="weight" placeholder="75" min="10" max="500" />
+                <span class="unit-label" id="weightUnit">kg</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-red btn-full" onclick="calculateBMI()">Calculate BMI</button>
+        </div>
+
+        <div class="bmi-result" id="bmiResult">
+          <div class="bmi-score" id="bmiScore">--</div>
+          <div class="bmi-category" id="bmiCategory">Enter your details</div>
+          <div class="bmi-bar-wrap">
+            <div class="bmi-bar">
+              <div class="bmi-bar-fill" id="bmiBarFill"></div>
+              <div class="bmi-pointer" id="bmiPointer"></div>
+            </div>
+            <div class="bmi-bar-labels">
+              <span>Underweight</span><span>Normal</span><span>Overweight</span><span>Obese</span>
+            </div>
+          </div>
+          <p class="bmi-advice" id="bmiAdvice">Your BMI will appear here once you fill in your measurements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       TESTIMONIALS / REVIEWS SECTION
+  ================================================================ -->
+  <section class="reviews section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Success Stories</p>
+        <h2 class="section-title">What Members <span>Say</span></h2>
+      </div>
+
+      <div class="reviews-slider" id="reviewsSlider">
+
+        <!-- ===================== CHANGE REVIEW 1 HERE ===================== -->
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"IronEdge completely transformed my life. Lost 18 kg in 4 months with the guidance of my trainer. The facilities are world-class and the community is incredibly motivating."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">AK</div>
+            <div>
+              <strong>Amit Kumar</strong>
+              <span>Member since 2022</span>
+            </div>
+          </div>
+        </div>
+        <!-- ================================================================ -->
+
+        <!-- ===================== CHANGE REVIEW 2 HERE ===================== -->
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Best gym I've ever been to. The trainers are knowledgeable, the equipment is top-notch, and the atmosphere pushes you to give 100% every single day. Highly recommend!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">RS</div>
+            <div>
+              <strong>Riya Singh</strong>
+              <span>Member since 2023</span>
+            </div>
+          </div>
+        </div>
+        <!-- ================================================================ -->
+
+        <!-- ===================== CHANGE REVIEW 3 HERE ===================== -->
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Joined as a complete beginner and now I can't imagine life without IronEdge. The 1-year plan is an absolute steal. My trainer Rahul has been exceptional every step of the way."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">VP</div>
+            <div>
+              <strong>Vikram Patel</strong>
+              <span>Member since 2021</span>
+            </div>
+          </div>
+        </div>
+        <!-- ================================================================ -->
+
+        <!-- ===================== CHANGE REVIEW 4 HERE ===================== -->
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"The yoga and flexibility classes with Priya are a game-changer. I came for weight loss and got so much more — better posture, sleep, and mental clarity. IronEdge is the real deal."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">NK</div>
+            <div>
+              <strong>Neha Kapoor</strong>
+              <span>Member since 2023</span>
+            </div>
+          </div>
+        </div>
+        <!-- ================================================================ -->
+
+      </div>
+
+      <div class="slider-dots" id="sliderDots"></div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       CONTACT SECTION
+  ================================================================ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Get in Touch</p>
+        <h2 class="section-title">Contact <span>Us</span></h2>
+        <p class="section-desc">Have questions? We'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <!-- ===================== CHANGE ADDRESS HERE ===================== -->
+              <h4>Location</h4>
+              <p>123, Fitness Street, Sector 14,<br />New Delhi — 110001</p>
+              <!-- ================================================================ -->
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <!-- ===================== CHANGE PHONE NUMBER HERE ===================== -->
+              <h4>Phone</h4>
+              <p><a href="tel:+917563005314">+91 75630 05314</a></p>
+              <!-- ==================================================================== -->
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <!-- ===================== CHANGE EMAIL HERE ===================== -->
+              <h4>Email</h4>
+              <p><a href="mailto:mdalam332002@gmail.com">mdalam332002@gmail.com</a></p>
+              <!-- ================================================================ -->
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <!-- ===================== CHANGE GYM HOURS HERE ===================== -->
+              <h4>Hours</h4>
+              <p>Mon–Sat: 5:00 AM – 11:00 PM<br />Sunday: 7:00 AM – 9:00 PM</p>
+              <!-- ================================================================== -->
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <!--
+            ================================================================
+            CONTACT FORM — Using Formspree (No Backend Required)
+            ----------------------------------------------------------------
+            HOW TO SET UP:
+            1. Go to https://formspree.io and create a free account
+            2. Create a new form and add your email: mdalam332002@gmail.com
+            3. Copy your unique form ID (looks like: xyzabcde)
+            4. Replace YOUR_FORMSPREE_ID below with your actual ID
+            Example: action="https://formspree.io/f/xyzabcde"
+            ================================================================
+          -->
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+            method="POST"
+            class="contact-form"
+            onsubmit="handleFormSubmit(event)"
+          >
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="">Select a subject</option>
+                <option value="membership">Membership Inquiry</option>
+                <option value="trainer">Personal Trainer</option>
+                <option value="group">Group Classes</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-red btn-full" id="submitBtn">
+              <span id="btnText">Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+            <div class="form-status" id="formStatus"></div>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- ================================================================
+           GOOGLE MAPS EMBED
+      ================================================================ -->
+      <div class="map-wrap">
+        <!--
+          ===================== CHANGE GOOGLE MAPS EMBED HERE =====================
+          HOW TO GET YOUR MAP EMBED:
+          1. Go to https://maps.google.com
+          2. Search for your gym's address
+          3. Click "Share" → "Embed a map"
+          4. Copy the <iframe> src URL and paste it below
+          ==========================================================================
+        -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8396525!2d77.04417566!3d28.527552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1688000000000!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="IronEdge Gym Location"
+        ></iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================================================================
+       FOOTER
+  ================================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <!-- ===================== CHANGE GYM NAME HERE ===================== -->
+          <a href="#home" class="nav-logo footer-logo">IRON<span>EDGE</span></a>
+          <!-- ================================================================ -->
+          <!-- ===================== CHANGE FOOTER TAGLINE HERE ===================== -->
+          <p>Your transformation starts here. Strength, discipline, and results — every day.</p>
+          <!-- ===================================================================== -->
+          <div class="footer-socials">
+            <!-- ===================== CHANGE SOCIAL LINKS HERE ===================== -->
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <!-- ==================================================================== -->
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <!-- ===================== CHANGE CONTACT INFO HERE ===================== -->
+          <p><i class="fas fa-phone"></i> <a href="tel:+917563005314">+91 75630 05314</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:mdalam332002@gmail.com">mdalam332002@gmail.com</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Fitness Street, New Delhi</p>
+          <!-- ==================================================================== -->
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <!-- ===================== CHANGE GYM NAME HERE ===================== -->
+        <p>&copy; <span id="year"></span> IronEdge Gym. All rights reserved.</p>
+        <!-- ================================================================ -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================================================================
+       FLOATING BUTTONS (WhatsApp + Call)
+  ================================================================ -->
+  <div class="floating-buttons">
+    <!-- ===================== CHANGE PHONE NUMBER HERE ===================== -->
+    <a href="https://wa.me/917563005314?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20IronEdge%20Gym!"
+       class="float-btn float-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+      <span class="float-tooltip">Chat on WhatsApp</span>
+    </a>
+    <a href="tel:+917563005314" class="float-btn float-call" aria-label="Call Us">
+      <i class="fas fa-phone"></i>
+      <span class="float-tooltip">Call Us</span>
+    </a>
+    <!-- ==================================================================== -->
+  </div>
+
+  <!-- ================================================================
+       BACK TO TOP BUTTON
+  ================================================================ -->
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
